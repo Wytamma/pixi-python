@@ -1,0 +1,11 @@
+[project]
+authors = ["Wytamma Wirth <wytamma.wirth@me.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "pixi-python"
+platforms = ["osx-arm64", "linux-64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.2,<3.14"
