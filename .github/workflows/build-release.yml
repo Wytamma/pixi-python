@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Pixi-Pack
-        uses: wytamma/pixi-pack-action@1114653
+        uses: wytamma/pixi-pack-action@111465303185b131fc375427071bd22f5f71084f
         with:
           platform: ${{ matrix.platform }}
           entrypoint: ${ { matrix.platform == 'linux-64' && 'python' || '' } } # create once for unix
