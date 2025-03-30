@@ -25,7 +25,7 @@ jobs:
         uses: wytamma/pixi-pack-action@111465303185b131fc375427071bd22f5f71084f
         with:
           platform: ${{ matrix.platform }}
-          entrypoint: ${ { matrix.platform == 'linux-64' && 'python' || '' } } # create once for unix
+          entrypoint: ${{ matrix.platform == 'linux-64' && 'python' || '' }} # create once for unix
 
       - name: Upload to Release
         uses: softprops/action-gh-release@v2
