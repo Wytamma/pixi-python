@@ -30,4 +30,4 @@ jobs:
       - name: Upload to Release
         uses: softprops/action-gh-release@v2
         with:
-          files: "${{ github.event.repository.name }}-*.sh, ${{ github.event.repository.name }}-*.ps1"
+          files: "${{ github.event.repository.name }}-*.sh, ${{ github.event.repository.name }}-*.ps1, install.sh"
