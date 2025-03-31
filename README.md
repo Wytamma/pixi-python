@@ -1,6 +1,6 @@
 # Pixi Pack Action Example 
 
-This is an example repo that uses the [pixi-pack](https://github.com/marketplace/actions/pixi-pack-action) and [install script](https://github.com/Wytamma/pixi-pack-install-script) actions to create cross-platform self-extracting binaries of environments and and install script for python.
+This is an example repo that uses the [pixi-pack](https://github.com/marketplace/actions/pixi-pack-action) and [install script](https://github.com/Wytamma/pixi-pack-install-script) actions to create cross-platform self-extracting binaries of environments and and install script for python on each release e.g. https://github.com/Wytamma/pixi-python/releases/latest.
 
 See the GutHub workflow for examples of how to use the actions.
 
